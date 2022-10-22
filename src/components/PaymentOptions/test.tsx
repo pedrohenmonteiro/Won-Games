@@ -45,7 +45,7 @@ describe('<PaymentOptions />', () => {
     userEvent.click(screen.getByRole('button', { name: /buy now/i }))
 
     await waitFor(() => {
-      expect(handlePayment).not.toHaveBeenCalled()
+      expect(handlePayment).toHaveBeenCalled()
     })
   })
 })
