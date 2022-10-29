@@ -15,10 +15,6 @@ const GamesTemplate = ({ filterItems, games = [] }: GamesTemplateProps) => {
     return
   }
 
-  const handleShowMore = () => {
-    return
-  }
-
   return (
     <Base>
       <S.Main>
